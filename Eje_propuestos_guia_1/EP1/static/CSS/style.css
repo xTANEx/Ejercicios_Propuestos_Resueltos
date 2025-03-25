@@ -1,0 +1,33 @@
+:root{
+    --main-text-align: center;
+}
+
+body{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: var(--main-text-align)
+}
+
+fieldset{
+    margin: auto;
+    width: 400px;
+}
+
+legend{
+    text-align: left;
+}
+
+.datos{
+    text-align: var(--main-text-align);
+}
+
+#contenido{
+    background-color: #92e892;
+    border: none;
+    border-radius: 5px;
+    text-align: var(--main-text-align);
+}
+
+#contenido::placeholder{
+    color: #000;
+}

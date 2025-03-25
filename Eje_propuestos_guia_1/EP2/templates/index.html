@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de multiplicar</title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+</head>
+<body>
+    <h1>Generador de tablas de multiplicar</h1>
+    <div class="container_resultado">
+    <p>Ingrese en la url seguido de un / el numero del que desea saber la tabla del multiplicar.</p>
+        <ul class="lista">
+            {% for i in resultado %}
+            <li class="items_lista"> {{ numero }} X {{ i }} = {{ resultado[i] }} </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</body>
+</html>

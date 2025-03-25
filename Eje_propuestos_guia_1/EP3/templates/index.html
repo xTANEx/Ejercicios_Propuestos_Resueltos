@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../static/JS/app.js"></script>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <title>Ejercicio Propuesto 3</title>
+</head>
+<body>
+    <h1>¿ Que desea hallar ?</h1>
+    <form action="" method="post">
+        <fieldset class="seleccion">
+            <legend class="seleccion_titulo"> Seleccione una opcion dependiendo de lo que quiera hallar</legend>
+            <input type="radio" name="opcion" id="circulo" onclick="Area_circulo()">
+            <label for="circulo">Area de un circulo</label>
+            <input type="radio" name="opcion" id="cuadrado" onclick="Area_cuadrado()">
+            <label for="cuadrado">Area de un cuadrado</label>
+            <input type="radio" name="opcion" id="triangulo" onclick="Area_triangulo()">
+            <label for="triangulo">Area de un triangulo</label>
+        </fieldset>
+        <input type="number" name="entrada1" id="entrada1">
+        <input type="number" name="entrada2" id="entrada2">
+        <div class="contenido" id="contenido"></div>
+    </form>
+    <button class="boton" onclick="Calcular()">Calcular</button>
+</body>
+</html>

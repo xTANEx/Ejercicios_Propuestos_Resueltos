@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.seleccion{
+    width: 650px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 16px 10px;
+    border-radius: 8px;
+}
+
+.seleccion_titulo{
+    padding: 0 12px;
+}
+
+#entrada1, #entrada2{
+    width: 220px;
+    padding: 8px;
+    margin-bottom: 45px;
+}
+
+hr{
+    width: 400px
+}
+
+.boton{
+    background-color: #48e;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+    transition: color,background-color 0.5s;
+}
+
+.boton:hover{
+    background-color: #fff;
+    color: #48e;
+    border: 1px solid #48e;
+}
